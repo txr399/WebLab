@@ -1,0 +1,62 @@
+/* STYLE TO MY LAYOUT */
+h1
+{
+  font-size: 3em;
+  font-family: fantasy;
+  color: gray;
+  text-align: center;
+}
+hr
+{
+width: 80%;
+}
+
+/* ---------------------------- RESPONSIVE GRID LAYOUT ----------------------------- */
+
+.gridLayout
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 350px;
+
+ /* WE START OUR GRID WITH THIS PROPERTY */
+  display: grid;
+  /* The templates areas will help us to distribute the cells from our grid in the order we want.
+  You can name it as you like of course is always good to name it in a obvious way.  */
+  grid-template-areas:  "nav hea hea"
+                        "nav hea hea"
+                        "main main main"
+                        "foo foo foo";
+
+  grid-template-rows: 10% 20% 80% 30%;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.gridLayout header
+{
+  grid-area: hea;
+  background-color: lightblue;
+
+}
+
+.gridLayout nav
+{
+  grid-area: nav;
+  background-color: lightgreen;
+}
+.gridLayout main
+{
+  grid-area: main;
+  background-color: lightgray;
+}
+
+.gridLayout footer
+{
+  grid-area: foo;
+  background-color: pink;
+}
+
+/* ---------------------------- END RESPONSIVE GRID LAYOUT ----------------------------- */
