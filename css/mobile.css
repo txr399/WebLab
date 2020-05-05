@@ -1,0 +1,50 @@
+@media only screen and (max-device-width: 480px)
+{
+  nav ul li a
+  {
+    width: auto;
+    float: none;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    height: 60px;
+  }
+
+  nav ul li:first-child a:hover
+  {
+    border-radius: 12px 12px 0 0;
+    background-color: black;
+    color: white;
+  }
+
+  nav ul li:nth-child(2) a:hover, nav ul li:nth-child(3) a:hover, nav ul li:nth-child(4) a:hover
+  {
+    border-radius: 0 0 0 0;
+    background-color: black;
+    color: white;
+  }
+
+  nav ul li:last-child a:hover
+  {
+    border-radius: 0 0 12px 12px;
+    background-color: black;
+    color: white;
+  }
+
+  img
+  {
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  width: 80%;
+  }
+
+  .social-icons li
+  {
+    vertical-align: top;
+    display: grid;
+  }
+
+}

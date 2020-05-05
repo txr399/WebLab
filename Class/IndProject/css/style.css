@@ -1,3 +1,21 @@
 body {
   background-image: url("../images/allabouttheu.jpg"); /* change this line only! */
 }
+
+
+h1 {
+  background-color: rgb(255,179,5);
+  color: rgb(4,105,0)
+}
+
+ul li {
+
+}
+
+a:hover {
+  color: orange;
+}
+
+strong {
+  font-weight: bolder;
+}

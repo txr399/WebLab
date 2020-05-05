@@ -1,0 +1,184 @@
+body{
+  margin: 20px;
+  font-family: sans-serif;
+  background-color: white;
+
+}
+
+.header img {
+  margin-bottom: -70px;
+  margin-top: 0px;
+}
+
+#tink {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1
+{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: rgba(78, 137, 205, 1);
+  font-size: 33pt;
+  margin-bottom: 20pt;
+  font-family: 'Lora', serif;
+}
+
+h3 {
+
+  margin-top: 20px;
+  margin-bottom: -25px;
+  color: rgba(78, 137, 205, 1);
+  font-size: 20pt;
+  font-family: 'Lora', serif;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lora', serif;
+  padding: 10pt;
+  font-size: 15pt;
+}
+
+
+.gridMain
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "na na na"
+    "ma ma ma"
+    "fo fo fo";
+  grid-template-rows: .2fr 1fr .2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridMain nav
+{
+  grid-area: na;
+  background-color: rgba(78, 137, 205, 1);
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.gridMain main
+{
+  grid-area: ma;
+  background-color: #e2e2e2;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.gridMain footer
+{
+  grid-area: fo;
+  background-color: rgba(78, 137, 205, 1);
+  border-radius: 10px;
+}
+
+
+ h2
+{
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  color: rgba(78, 137, 205, 1);
+  font-size: 35pt;
+  font-family: 'Lora', serif;
+}
+
+
+nav ul
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  list-style-type: none;
+  font-size: 0;
+}
+
+nav ul li
+{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav ul li a
+{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 5;
+  text-decoration: none;
+  transition: background .3s;
+}
+
+nav ul li a:hover
+{
+  background-color: #f1f1f1;
+  color: rgba(78, 137, 205, 1);
+
+}
+
+.ov img {
+align-items: center;
+margin: auto;
+text-align: center;
+}
+
+
+footer p
+{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+hr
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.images img {
+  display: inline-block;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  margin: auto;
+}
+
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.images {
+  margin: 10px;
+  text-align: center;
+}
+
+.dark {
+  background-color: rgb(29, 31, 66);
+}

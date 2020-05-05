@@ -1,0 +1,264 @@
+body{
+  margin: 20px;
+  font-family: sans-serif;
+  background-color: #F3F3F3;
+
+}
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: (-50%, -50%);
+
+}
+
+.container > div
+{
+  margin: 0px 10px;
+  width: 40px;
+  height: 40px;
+  background: gray;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+h1
+{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #22ADC2;
+  font-size: 33pt;
+  margin-bottom: 20pt;
+  font-family: 'Lora', serif;
+}
+
+h3 {
+
+  margin-top: 20px;
+  margin-bottom: -25px;
+  color: #22ADC2;
+  font-size: 20pt;
+  font-family: 'Lora', serif;
+  padding: 10px;
+  text-align: center;
+}
+
+p
+{
+  font-family: 'Lora', serif;
+  padding: 10pt;
+  font-size: 15pt;
+}
+
+.grid ul li, .grid ol li
+{
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 5pt;
+  font-size: 15pt;
+}
+
+.gridMain
+{
+  width: 85%;
+  height: 85vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "na na na"
+    "ma ma ma"
+    "fo fo fo";
+  grid-template-rows: .2fr 1fr .2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridMain nav
+{
+  grid-area: na;
+  background-color: #B69606;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.gridMain main
+{
+  grid-area: ma;
+  background-color: #e2e2e2;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.gridMain footer
+{
+  grid-area: fo;
+  background-color: #B69606;
+  border-radius: 10px;
+}
+
+
+
+
+ h2
+{
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  color: gray;
+  font-size: 35pt;
+  font-family: 'Lora', serif;
+}
+
+h4
+{
+  color: gray;
+  font-size: 15pt;
+  font-family: 'Lora', serif;
+  padding: 10px;
+  text-align: center;
+}
+
+
+nav ul
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  list-style-type: none;
+  font-size: 0;
+}
+
+nav ul li
+{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav ul li a
+{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 5;
+  text-decoration: none;
+  transition: background .5s;
+}
+
+nav ul li a:hover
+{
+  background-color: black;
+  color: white;
+}
+
+nav ul li:first-child a:hover
+{
+  border-radius: 12px 0 0 12px;
+  background-color: black;
+  color: white;
+
+}
+
+nav ul li:last-child a:hover
+{
+  border-radius: 0 12px 12px 0;
+  background-color: black;
+  color: white;
+
+}
+
+.homepage img
+{
+align-items: center;
+margin: auto;
+text-align: center;
+}
+
+
+footer p
+{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+hr
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.images img
+{
+  display: inline-block;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  margin: auto;
+}
+
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.images
+{
+  margin: 10px;
+  text-align: center;
+}
+
+
+.social-icons li
+{
+  vertical-align: top;
+  display: inline;
+}
+.social-icons a
+{
+  color: #f3f3f3;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-github
+{
+  padding:10px 14px;
+  transition: .5s;
+  background-color: gray;
+}
+.fa-facebook:hover
+{
+  background-color: #3d5b99;
+}
+
+.fa-twitter:hover
+{
+  background-color: #00aced;
+}
+
+.fa-instagram:hover
+{
+  background-color: #eb8231;
+}
+
+.fa-github:hover
+{
+  background-color: #5a32a3;
+}

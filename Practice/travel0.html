@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery2</title>
+    <meta name="author" content="Tatiana Robinson">
+    <meta name="content" content="This site tells about the University of Miami Freshman, Tatiana Robinson, and her past leadership experiences.">
+    <meta name="keywords" content="resume, tatiana robinson, university of miami">
+    <link rel="stylesheet" href="CSS/travel.css">
+
+    <!-- Jquery script source -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <!-- stylesheet and pluging for Fancybox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- This is the link to my jQuery file -->
+    <script type="text/javascript" src="JS/jQuery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  </head>
+
+  <body id="Body" class="light">
+
+    <header>
+      <div class="header">
+        <h1>  <img src="IMG/WDW.png" alt="Disney World" width="270"> Travel Guide</h1>
+      </div>
+    </header>
+
+    <div class="gridMain">
+
+      <nav>
+        <ul>
+          <li> <a id="_show" href="#">Magic Kingdom</a> </li>
+          <li> <a id="_hide" href="#">Epcot</a> </li>
+          <li> <a id="_toggle" href="#">Hollywood Studios</a> </li>
+          <li> <a id="_html" href="#">Animal Kingdom</a> </li>
+          <li> <a id="_css" href="#">Resorts</a> </li>
+        </ul>
+      </nav>
+
+      <main>
+        <div id="pagepiling">
+
+            <div class="ov">
+              <div class="grid">
+                <h2>Bio</h2>
+                <p> Tatiana Robinson is born and raised in Southeast, Washington DC and is the second of four children. She has been a DC Public Schools student during her entire school career attending Randle Highlands Elementary School, Jefferson Middle School, and Ballou High School, until recently, when she graduated from high school is 2019. Tatiana currently attends the University of Miami where she will pursue a double-major in Interactive Media and Broadcast Journalism with minors in Game Design and Mathematics. While in high school, Tatiana served in numerous leadership roles to advocate for her peers including serving as Ballou’s Representative on the DCPS Chancellor’s Student Cabinet for two consecutive years, a student representative on Mayor Bowser’s Chancellor Search Committee, the DC State Board of Education Student Representative for two consecutive years, and as Co-Chair of the Student Advisory. In the future, Tatiana has hopes of not only getting into the STEM and entertainment industries, but also to become the Mayor of the District of Columbia.</p>
+                </p>
+                <img src="IMGS/BabyPic.jpg" alt="Baby Photo" width="400">
+            </div>
+          </div>
+
+          <div class="mk">
+            <div class="grid">
+              <h2>Resume</h2>
+              <h3>Rides</h3>
+              <p>
+              The rides at Magic Kingdom are fit for all ages. If you're looking for a thrill ride,
+              I would recommend going on Space Mountian. Make sure to go early in the day before the lines get too long!
+              One of my favorite rides that is often overlooked is the Monster's Inc. Laugh Floor. This consists of an interactive
+              comedy show hosted by the monsters from Monsters Inc. If you're looking to cool off from the afternoon sun, Splash
+              Mountain is my top choice. But make sure to get a fast pass for this one, the lines can get pretty long.
+              </p>
+              <div class="images">
+                <a data-fancybox="mkrides" data-caption="Space Mountain"  href="IMG/spacemountain.jpg">  <img src="IMG/spacemountain.jpg" alt="Space Mountain" width="300">  </a>
+                <a data-fancybox="mkrides" data-caption="Monster's Inc. Laugh Floor"  href="IMG/laughfloor.jpg"> <img src="IMG/laughfloor.jpg" alt="Laugh Floor" width="300"> </a>
+                <a data-fancybox="mkrides" data-caption="Splash Mountain"  href="IMG/splashmtn.jpg">  <img src="IMG/splashmtn.jpg" alt="Splash Mountain" width="300"> </a>
+              </div>
+              <h3>Entertainment</h3>
+              <p>There is plenty to do at Magic Kingdom besides just rides. There are always character experiences throughout
+              the park and a variety of shows for all ages. A short 15-20 minute live show occurs in front of Cinderella's castle
+            throughout the day that features Mickey and friends. In the afternoon, there is the Festival of Fantasy Parade that goes
+            through the park and finishes on Mainstreet U.S.A. At night, there's a fireworks show that you won't want to miss. But make
+             sure to grab a spot early, firework viewing areas can get very packed. </p>
+             <div class="images">
+               <a data-fancybox="mkent" data-caption="Magic Kingdom Parade"  href="IMG/mkparade.jpg">   <img src="IMG/mkparade.jpg" alt="Magic Kingdom Parade" width="300"> </a>
+               <a data-fancybox="mkent" data-caption="Cinderella Castle Show"  href="IMG/castleshow.jpg"> <img src="IMG/castleshow.jpg" alt="Castle Show" width="300"> </a>
+               <a data-fancybox="mkent" data-caption="Magic Kingdom Fireworks"  href="IMG/fireworks.png"> <img src="IMG/fireworks.png" alt="Fireworks" width="300"> </a>
+            </div>
+            <h3>Food</h3>
+            <p>
+              The food at Disney Parks is one of my favorite parts, especially for Magic Kingdom.
+              Make sure to stop by Adventureland to grab a refreshing Dole Whip while you're there.
+              Dole Whips are a pineapple ice cream treat that can be either eaten plain or as a float with
+              pineapple juice added. If you're looking for a sit-down dining option, I would recommend Tony's Town Square Restaurant.
+              The restaurant is themed on the movie Lady and the Tramp and features Italian dishes, including the spaghetti from the movie!
+            </p>
+            <div class="images">
+              <a data-fancybox="mkfood" data-caption="Tony's Town Square Restaurant"  href="IMG/tonys.jpg"> <img src="IMG/tonys.jpg" alt="Tony's Town Square" width="350"> </a>
+              <a data-fancybox="mkfood" data-caption="Dole Whip"  href="IMG/dole.jpg"> <img src="IMG/dole.jpg" alt="Dole Whip" width="250"> </a>
+              <a data-fancybox="mkfood" data-caption="Minnie Mouse Sundae"  href="IMG/sundae.jpg"> <img src="IMG/sundae.jpg" alt="Minnie Sundae" width="350"> </a>
+            </div>
+            </div>
+          </div>
+
+          <div class="ep">
+            <div class="grid">
+              <h2>Epcot</h2>
+              <h3>Rides</h3>
+              <p>
+                One of my favorite rides at Epcot is Test Track. You get to design your own car and then test out how it rides
+                after you finish making it. When entering the park, don't be deceived by the large ball in the center of the park, it's not
+                just for looks. There is actually a ride inside of it called Spaceship Earth. Another popular attraction is Soarin' which allows
+                you to fly across the United States.
+              </p>
+              <div class="images">
+                <a data-fancybox="eprides" data-caption="Test Track"  href="IMG/testtrack.jpg"> <img src="IMG/testtrack.jpg" alt="Test Track" width="300"> </a>
+                <a data-fancybox="eprides" data-caption="Epcot Ball at night"  href="IMG/epcot.jpg"> <img src="IMG/epcot.jpg" alt="Epcot Ball" width="300"> </a>
+                <a data-fancybox="eprides" data-caption="Soarin"  href="IMG/soarin.jpg"> <img src="IMG/soarin.jpg" alt="Soarin" width="300"> </a>
+              </div>
+              <h3>Entertainment</h3>
+              <p>Around the World SHowcase, several different entertainers pop up for performances throughout the day. In the China Pavilion, the
+                 Jeweled Dragon Acrobats put on a great show. In the France Pavilion, a man puts on a great balancing act with a stack of chairs.
+                 At night, Epcot holds a show called the Epcot Forever which is presented on the lake in the middle of the World Showcase. The show uses
+                a combination of light, water, boats, and fireworks to create an experience you won't want to miss. </p>
+              <div class="images">
+                <a data-fancybox="epent" data-caption="Jeweled Dragons"  href="IMG/acrobats.jpg"> <img src="IMG/acrobats.jpg" alt="Jeweled Dragons" width="300"> </a>
+                <a data-fancybox="epent" data-caption="Epcot Forever Fireworks"  href="IMG/epcotforever.png"> <img src="IMG/epcotforever.png" alt="Epcot Forever" width="300"> </a>
+                <a data-fancybox="epent" data-caption="Chair Man"  href="IMG/chairs.jpg"> <img src="IMG/chairs.jpg" alt="Chair Man" width="300"> </a>
+              </div>
+              <h3>Food</h3>
+              <p>
+                One of the best times to visit Epcot is during the Food and Wine Festival, which is held from the end of August through November 23rd.
+                During this time there are extra food stands around Epcot along with celebrity chefs, and live concert performances. One of my favorite treats
+                are the crepes in the France Pavilion. If you're looking for a sit-down meal, I would recommend getting pizza from the Via Napoli restaurant in Italy.
+              </p>
+              <div class="images">
+                <a data-fancybox="epfood" data-caption="France Pavilion Crepe"  href="IMG/crepe.jpg"> <img src="IMG/crepe.jpg" alt="France Pavilion Crepe" width="300"> </a>
+                <a data-fancybox="epfood" data-caption="Epcot's Food and Wine Festival"  href="IMG/foodwine.jpg"> <img src="IMG/foodwine.jpg" alt="Food and Wine Festival" width="300"> </a>
+                <a data-fancybox="epfood" data-caption="Via Napoli Restaurant"  href="IMG/napoli.jpg"> <img src="IMG/napoli.jpg" alt="Via Napoli Restaurant" width="300"> </a>
+              </div>
+          </div>
+        </div>
+
+          <div class="hs">
+            <div class="grid">
+              <h2>Hollywood Studios</h2>
+              <h3>Rides</h3>
+              <p>
+                If you're looking for thrill rides, Hollywood Studios has two of the best ones. The Tower of Terror takes you to the haunted elevator of an abandoned
+                 hotel from the golden age of Hollywood. The other is the Aerosmith Rock n' Rollercoaster which takes you from 0 to 60mph in 3 seconds. Both rides are
+                 right next to each other and I would recommend hitting them early before the park gets too busy. Other popular areas that have just opened are Toy Story
+                 Land and Star Wars: Galaxy's Edge which transport you into the world of the films.
+              </p>
+              <div class="images">
+                <a data-fancybox="hsrides" data-caption="Toy Story Land"  href="IMG/toystory.jpg">  <img src="IMG/toystory.jpg" alt="Toy Story" width="300"> </a>
+                <a data-fancybox="hsrides" data-caption="Tower of Terror"  href="IMG/tower.jpg"><img src="IMG/tower.jpg" alt="Tower of Terror" width="300"> </a>
+                <a data-fancybox="hsrides" data-caption="Star Wars: Galaxy's Edge"  href="IMG/starwars.jpg"> <img src="IMG/starwars.jpg" alt="Star Wars Galaxy's Edge" width="300"> </a>
+              </div>
+              <h3>Entertainment</h3>
+              <p>I believe Hollywood Studios provides some of the best entertainment options for live shows. Every day, there are showings of a live Beauty and the Beast
+              play. There is also a live show called Indiana Jones Stunt Spectacular which is an interactive performance and gives a look behind the scenes
+            of how stunts are performed for movies. At night, there is a show called Fantasmic that combines water, light, and pyrotechnics as you follow along Mickey's adventure. </p>
+              <div class="images">
+                <a data-fancybox="hsent" data-caption="Beauty and the Beast"  href="IMG/beauty.png"> <img src="IMG/beauty.png" alt="Beauty and the Beast" width="300"> </a>
+                <a data-fancybox="hsent" data-caption="Fantasmic"  href="IMG/fantasmic.jpg"> <img src="IMG/fantasmic.jpg" alt="Fantasmic" width="300"> </a>
+                <a data-fancybox="hsent" data-caption="Indiana Jones Stunt Spectacular"  href="IMG/indy.jpg"> <img src="IMG/indy.jpg" alt="Indiana Jones Stunt Spectacular" width="300"> </a>
+              </div>
+              <h3>Food</h3>
+              <p>
+                For a great sit-down dining option, I would recommend the Sci-Fi Dine-In Theater. It serves American food but has great theming for a fun family experience.
+                If you're looking to try something different, I would head over to Star Wars: Galaxy's Edge and go to Docking Bay 7 Food and Cargo for Smoked Kaadu Ribs or some Fried Endorian Tip-yip.
+                For a great afternoon snack, I would recommend getting a cream cheese-filled pretzel from the stand next to the Chinese Theater. It is one of the only places I have been able to find this type
+                of pretzel in all of Disney World.
+              </p>
+              <div class="images">
+                <a data-fancybox="hsfood" data-caption="Cream Cheese-Filled Pretzel"  href="IMG/ccpretzel.jpg"> <img src="IMG/ccpretzel.jpg" alt="Cream Cheese Pretzel" width="300"> </a>
+                <a data-fancybox="hsfood" data-caption="Star Wars Galaxy Edge's Smoked Kaadu Ribs"  href="IMG/ribs.png"> <img src="IMG/ribs.png" alt="Smoked Kaadu Ribs" width="300"> </a>
+                <a data-fancybox="hsfood" data-caption="Sci-Fi Dine-In Theater"  href="IMG/scifi.jpg"> <img src="IMG/scifi.jpg" alt="Sci-Fi Dine-In Theater" width="300"> </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ak">
+            <div class="grid">
+              <h2>Animal Kingdom</h2>
+              <h3>Rides</h3>
+              <p>
+                When you first enter the park, you may see a giant tree at the park's center. This
+                is the tree of life, but don't be fooled, the tree isn't just for decoration. There is
+                actually a Bug's Life themed ride inside of the tree that you can experience. Expedition Everest
+                is one of the only roller coaster rides at Animal Kingdom, but it is also one of my favorites. The
+                roller coaster goes through a mountain and you get to have a close-encounter experience with the Yeti
+                 that lives inside of it. The newest addition to the park is the Pandora section, based on the Avatar movie.
+                 I suggest going there first thing in the morning because the lines can get very long.
+              </p>
+              <div class="images">
+                <a data-fancybox="akrides" data-caption="Pandora"  href="IMG/pandora.jpg"> <img src="IMG/pandora.jpg" alt="Pandora" width="300"> </a>
+                <a data-fancybox="akrides" data-caption="Animal Kingdom's Tree of Life"  href="IMG/animalkingdom.jpg"> <img src="IMG/animalkingdom.jpg" alt="Tree of Life" width="300"> </a>
+                <a data-fancybox="akrides" data-caption="Expedition Everest"  href="IMG/everest.png"> <img src="IMG/everest.png" alt="Expedition Everest" width="300"> </a>
+              </div>
+              <h3>Entertainment</h3>
+              <p>Animal Kingdom has a few different performances that are put on throughout the day. Two of my favorites
+              are Festival of the Lion King and Finding Nemo the Musical. Both are located indoors and are live performances
+            that make you feel like you're having a broadway-level experience. Another new addition to Animal Kingdom in
+          the River of Light night show. This is a performance that takes place on a body of water and combines light, music, and
+        live actors to create a memorable experience.</p>
+              <div class="images">
+                <a data-fancybox="akent" data-caption="Festival of the Lion King"  href="IMG/lionking.jpg"> <img src="IMG/lionking.jpg" alt="Festival of the Lion King" width="300"> </a>
+                <a data-fancybox="akent" data-caption="River of Light"  href="IMG/riverlight.jpg"> <img src="IMG/riverlight.jpg" alt="River of Light" width="300"> </a>
+                <a data-fancybox="akent" data-caption="Finding Nemo: The Musical"  href="IMG/nemo.png"> <img src="IMG/nemo.png" alt="Finding Nemo the Musical" width="300"> </a>
+              </div>
+              <h3>Food</h3>
+              <p>
+                Although character dining experiences are available at locations in all the parks, my personal favorite is the brunch at Tusker House.
+                At this character experience you'll run into Donald Duck along with Goofy, Daisy, Minnie, and Micky. The meal is provided buffet-style,
+                so you can keep going back as much as you want. Another great option if you're eating on-the-go is the BBQ pulled pork mac n' cheese from Eight
+                Spoon Cafe. for a sweet treat, go to Dino Bite Snacks and try the Scrooge McDuck Billionaire Sundae.
+              </p>
+              <div class="images">
+                <a data-fancybox="akfood" data-caption="Eight Spoon Cafe's Mac n' Cheese"  href="IMG/8spoon.jpg"> <img src="IMG/8spoon.jpg" alt="Mac n' Cheese" width="300"> </a>
+                <a data-fancybox="akfood" data-caption="Tusker House Character Dining Experience"  href="IMG/tuskerhouse.png"> <img src="IMG/tuskerhouse.png" alt="Tusker House" width="300"> </a>
+                <a data-fancybox="akfood" data-caption="Scrooge McDuck's Billionaire Sundae"  href="IMG/scrooge.jpg"> <img src="IMG/scrooge.jpg" alt="Scrooge McDuck Billionaire Sundae" width="300"> </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="re">
+            <div class="grid">
+              <h2>Resorts</h2>
+            <h3>Value: Pop Century</h3>
+            <p>
+              The Pop Century Resort is the best value level resort on Disney property. The location is more centrally located to the parks than
+              the other value resorts and provides a variety of amenities. There are several pools on the property and it sits right next to a lake.
+              If you want, you could take a short walk across the bridge to visit the Disney Art of Animation Resort. While staying here, you definitely
+              are reminded you're on Disney property with the larger-than-life statues of Disney characters through the decades that are scattered around the hotel.
+            </p>
+            <div class="images">
+              <a data-fancybox="repop" data-caption="Pop Century Resort Pool"  href="IMG/poppool.jpg"> <img src="IMG/poppool.jpg" alt="Pop Century Pool" width="300"> </a>
+              <a data-fancybox="repop" data-caption="Pop Century Resort"  href="IMG/pop.jpg"> <img src="IMG/pop.jpg" alt="Pop Century Resort" width="300"> </a>
+              <a data-fancybox="repop" data-caption="Pop Century Resort Standard Room"  href="IMG/poproom.jpg"> <img src="IMG/poproom.jpg" alt="Pop Century Room" width="300"> </a>
+            </div>
+            <h3>Moderate: Port Orleans French Quarter</h3>
+            <p>The Port Orleans French Quarter Resort is by far my favorite hotel that I have stayed at. The resort is located right beside the
+            river and guests are able to take a relaxing boat ride down the river to Disney Springs, the shopping district at Walt Disney World.
+            One of my favorite parts about the resort is that they offer beignets on the restaurant menu. This is one of the only places at the Walt
+            Disney World Resort where you can get them. Overall, this hotel has a elegant style and relaxing feel that makes it feel more like a getaway while
+            still being more affordable than the Deluxe Resorts.</p>
+            <div class="images">
+              <a data-fancybox="refq" data-caption="Port Orlean's French Quarter Beignets"  href="IMG/beneigts.jpg"> <img src="IMG/beneigts.jpg" alt="Beignets" width="300"> </a>
+              <a data-fancybox="refq" data-caption="Port Orlean's French Quarter Resort Lobby"  href="IMG/frenchquarter.jpg"> <img src="IMG/frenchquarter.jpg" alt="French Quarter" width="300"> </a>
+              <a data-fancybox="refq" data-caption="Port Orlean's French Quarter Street"  href="IMG/fqstreet.jpg"> <img src="IMG/fqstreet.jpg" alt="French Quarter Street" width="300"> </a>
+            </div>
+            <h3>Deluxe: The Polynesian</h3>
+            <p>
+              The Polynesian Resort takes guests to an island paradise. The hotel connects with the monorail system which can take guests quickly to the Magic Kingdom,
+              Epcot, or any other resort that connects to the monorail. The resort also features it's own character dining experience where you can interact with Lilo and Stitch,
+              along with other classic Disney characters. Overall, this is definitely one of the higher class options, making it more expensive, but depending on your budget,
+              the Polynesian Resort could be the perfect fit for you.
+            </p>
+            <div class="images">
+              <a data-fancybox="repr" data-caption="Polynesian Resort Pool"  href="IMG/prpool.jpg"> <img src="IMG/prpool.jpg" alt="Polynesian Resort Pool" width="300"> </a>
+              <a data-fancybox="repr" data-caption="Polynesian Resort"  href="IMG/poly.jpg"> <img src="IMG/poly.jpg" alt="Polynesian Resort" width="300"> </a>
+              <a data-fancybox="repr" data-caption="Polynesian Resort Character Brunch Experience"  href="IMG/stitch.jpg"> <img src="IMG/stitch.jpg" alt="Stitch character dining breakfast" width="300"> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </main>
+
+      <footer>
+        <img id="tink" src="IMG/tink.png" alt="Tinkerbell" width="50">
+
+          <p>Psst! Over here!</p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
